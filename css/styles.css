@@ -144,11 +144,51 @@ h1 {
 }
 .manage-list{
   display: flex;
+  justify-content: space-between;
+  gap: 88px;
 }
-.manage-item{
-  max-width: 185px;
-}
+
 .manage-subtitle{
   text-align: center;
   max-width: 185px;
+}
+.manage-text{
+  font-size: 10px;
+  line-height: 14px;
+}
+/* pixelgrade */
+.pixelgrade{
+  padding: 45px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.pixelgrade-title{
+  margin-bottom: 8px;
+}
+.pixelgrade-text{
+  margin-bottom: 22px;
+}
+/* helping */
+.helping {
+  display: flex;
+  justify-content: space-between;
+}
+.helping-title{
+  margin-bottom: 8px;
+}
+.helping-text{
+  font-size: 12px;
+}
+.helping-list{
+  display: flex;
+  justify-content: space-between;
+}
+.helping-item{
+  margin-bottom: 28px;
+}
+.helping-number{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25;
+  margin-bottom: 8px;
 }
