@@ -1,3 +1,58 @@
+body {
+  font-family: "Inter", sans-serif;
+  line-height: 1.5;
+  color: #434455;
+  background-color: #ffffff;
+}
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+li {
+  list-style-type: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+img {
+  display: block;
+}
+.container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+button {
+  cursor: pointer;
+  font-size: inherit;
+}
+/* .visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+} */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 12px;
+}
 .header {
   background-color: #f5f7fa;
 }
@@ -5,10 +60,7 @@ h1 {
   color: #4d4d4d;
   font-size: 64px;
 }
-body {
-  font-family: "Inter", sans-serif;
-  line-height: 1.5;
-}
+
 .submit {
   background-color: #4caf4f; /* Зелений колір Nexcent */
   color: white;
