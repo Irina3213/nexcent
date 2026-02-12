@@ -170,6 +170,7 @@ h1 {
 }
 /* helping */
 .helping {
+  background-color: #F5F7FA;
   display: flex;
   justify-content: space-between;
 }
@@ -192,3 +193,22 @@ h1 {
   line-height: 25;
   margin-bottom: 8px;
 }
+/* design */
+.design{
+  display: flex;
+  justify-content: space-between;
+  padding: 34px 0;
+}
+
+.design-title{
+  margin-top: 42px;
+  margin-bottom: 5px;
+}
+.design-text{
+  margin-bottom: 22px;
+}
+.design-button{
+  margin-bottom: 42px;
+}
+
+/* tesla */
