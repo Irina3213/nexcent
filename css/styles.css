@@ -28,9 +28,10 @@ img {
   display: block;
 }
 .container {
-  max-width: 1158px;
-  padding: 0 15px;
+  max-width: 1200px;
   margin: 0 auto;
+  padding: 12px;
+
 }
 button {
   cursor: pointer;
@@ -48,21 +49,16 @@ button {
   clip: rect(0 0 0 0);
   overflow: hidden;
 } */
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 12px;
-}
+
 .header {
   display: flex;
-  justify-content: space-evenly;
-  
-
+  align-items: center;
+  gap: 40px;
 }
 .nav{
   display: flex;
   align-items: center;
-  justify-content: 0 left;
+  margin-left: auto;
 }
 h1 {
   color: #4d4d4d;
@@ -190,8 +186,13 @@ h1 {
 .helping-number{
   font-weight: 700;
   font-size: 20px;
-  line-height: 25;
+  line-height: 25px;
   margin-bottom: 8px;
+}
+.helping-list, .clients-list {
+  display: flex;
+  flex-wrap: wrap; /* Щоб на мобільних переносились */
+  gap: 30px;
 }
 /* design */
 .design{
@@ -229,3 +230,4 @@ h1 {
   line-height: 20px;
   margin-bottom: 8px;
 }
+.tesla ul { display: flex; gap: 10px; }
