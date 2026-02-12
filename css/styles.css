@@ -1,7 +1,7 @@
 body {
   font-family: "Inter", sans-serif;
   line-height: 1.5;
-  color: #434455;
+  color: #717171;
   background-color: #ffffff;
 }
 a {
@@ -54,18 +54,34 @@ button {
   padding: 12px;
 }
 .header {
-  background-color: #f5f7fa;
+  display: flex;
+  justify-content: space-between;
+
+}
+.nav{
+  display: flex;
+  align-items: center;
 }
 h1 {
   color: #4d4d4d;
   font-size: 64px;
 }
 
-.submit {
+.button {
   background-color: #4caf4f; /* Зелений колір Nexcent */
   color: white;
   padding: 14px 32px;
   text-decoration: none; /* Прибрати підкреслення посилання */
   border-radius: 4px; /* Закруглені кути */
   display: inline-block;
+}
+.accent{
+  color: #4caf4f;
+}
+
+.title{
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 30px;
+  color:#4d4d4d;
 }
